@@ -138,6 +138,10 @@ const header = document.querySelectorAll('.greet');
 
 // add entrance animation on windows load
 window.onload = function() {
+    
+  // Get the loader overlay and hide it 
+  const loaderOverlay = document.getElementById("loader");
+  loaderOverlay.classList.add('hide');
 
   for (let i = 0; i < header.length; i++) {
       setTimeout(function () {
