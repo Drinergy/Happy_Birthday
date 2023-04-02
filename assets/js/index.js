@@ -166,6 +166,7 @@ const close = document.getElementById('close');
 // bg sound
 const mahika = new Audio("assets/music/music.mp3");
 mahika.loop = true;
+mahika.volume = 0.5;
 
 next.addEventListener('click', () => {
   mahika.currentTime = 0;
