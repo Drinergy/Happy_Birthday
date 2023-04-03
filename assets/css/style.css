@@ -62,7 +62,7 @@ body {
 /* end loader */
 
 .hide {
-  display: none;
+  display: none !important;
 }
 
 .container {
