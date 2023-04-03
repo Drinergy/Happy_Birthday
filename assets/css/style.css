@@ -502,12 +502,16 @@ body {
   .container {
     font-size: 40px;
   }
+  
+  .cta {
+    padding-left: 15%;
+  }
 
   #birthday_message {
-     top: 6%;
+     top: 0;
   }
 	
   #special { 
-     top: 25%;
+     top: 15%;
   }
 }
