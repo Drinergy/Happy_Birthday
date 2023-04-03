@@ -76,6 +76,7 @@ body {
     flex-direction: column;
     gap: 30px;
     position: relative;
+    overflow: hidden;
 }
 
 /* Greeting */
@@ -501,6 +502,7 @@ body {
 
   .container {
     font-size: 40px;
+    overflow: auto;
   }
   
   .cta {
